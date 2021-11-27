@@ -4,7 +4,7 @@ public class GenerarCompra {
 
     public static void main(String[] args) {
 
-        PortalCompras compra = new PortalCompras();
+        Portal compra = new Portal();
 
         compra.ingresarClave("mara");
 

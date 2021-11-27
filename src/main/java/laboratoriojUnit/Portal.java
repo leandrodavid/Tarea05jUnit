@@ -1,15 +1,12 @@
 package laboratoriojUnit;
 
-public class PortalCompras {
+public class Portal {
 
     protected Usuario usuario;
     protected Carrito carrito;
     protected boolean logueado;
 
-    public PortalCompras(){
-        this.usuario= new Usuario();
-        this.logueado=false;
-        carrito = new Carrito();
+    public Portal(){
     }
 
     public void ingresarNombre(String nombre){

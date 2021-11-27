@@ -1,18 +1,15 @@
 import laboratoriojUnit.Carrito;
+import laboratoriojUnit.Portal;
 import laboratoriojUnit.Producto;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Order;
-import  org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Test;
 
-import java.util.ArrayList;
-
-import static javafx.beans.binding.Bindings.when;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class PortalComprasTest {
+public class CarritosTest {
 
     Carrito carrito = new Carrito();
-
 
 
     @Test
