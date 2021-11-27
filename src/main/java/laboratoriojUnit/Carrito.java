@@ -6,6 +6,10 @@ public class Carrito {
 
     ArrayList<Producto> carrito;
 
+    public Carrito(ArrayList<Producto> carrito) {
+        this.carrito = carrito;
+    }
+
     public Carrito(){
         this.carrito = new ArrayList<Producto>();
     }
