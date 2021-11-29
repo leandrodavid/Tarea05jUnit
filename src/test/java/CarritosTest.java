@@ -9,7 +9,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class CarritosTest {
 
-    Carrito carrito = new Carrito();
+    public Carrito carrito = new Carrito();
+    public Portal portal = new Portal();
 
 
     @Test
