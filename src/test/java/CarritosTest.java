@@ -24,7 +24,7 @@ public class CarritosTest {
     @Order(3)
     @DisplayName("Test para verificar si el carrito  está vacio")
     public void carritoVacioFallaTest() {
-        carrito.agregarProducto(new Producto("pera", 45));
+        //carrito.agregarProducto(new Producto("pera", 45));
         assertTrue(carrito.verificarCarrito(), "El carrito no se encuentra vacio");
     }
 
